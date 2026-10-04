@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee Search</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Employee Search</h1>
+      <p class="subtitle">Look up an employee by personnel number (PERNR)</p>
+    </header>
+
+    <form id="search-form" autocomplete="off">
+      <label for="pernr">Employee number</label>
+      <div class="row">
+        <input id="pernr" name="pernr" inputmode="numeric" maxlength="8" placeholder="e.g. 1003 or 00001003" required>
+        <button type="submit">Search</button>
+      </div>
+      <ul id="suggestions" role="listbox" hidden></ul>
+    </form>
+
+    <section id="result" aria-live="polite"></section>
+  </main>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

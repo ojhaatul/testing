@@ -1,0 +1,23 @@
+// Fictitious sample data shaped like SAP HCM infotype 0001 (PERNR, ENAME, org assignment).
+export const employees = [
+  ['00001001', 'John Smith', '1000 Hamburg', 'Finance', 'Accountant', '2015-04-01', '9999-12-31'],
+  ['00001002', 'Jane Doe', '1000 Hamburg', 'Human Resources', 'HR Business Partner', '2016-01-15', '9999-12-31'],
+  ['00001003', 'Rahul Sharma', '2000 Bangalore', 'IT', 'SAP ABAP Developer', '2018-07-01', '9999-12-31'],
+  ['00001004', 'Maria Garcia', '3000 Madrid', 'Sales', 'Sales Manager', '2014-09-01', '9999-12-31'],
+  ['00001005', 'Wei Chen', '4000 Singapore', 'Procurement', 'Buyer', '2019-03-11', '9999-12-31'],
+  ['00001006', 'Aisha Khan', '2000 Bangalore', 'IT', 'Basis Administrator', '2017-11-20', '9999-12-31'],
+  ['00001007', 'Lukas Müller', '1000 Hamburg', 'Logistics', 'Warehouse Supervisor', '2012-02-01', '9999-12-31'],
+  ['00001008', 'Emily Johnson', '5000 New York', 'Marketing', 'Brand Manager', '2020-06-01', '9999-12-31'],
+  ['00001009', 'Kenji Tanaka', '6000 Tokyo', 'Production', 'Plant Engineer', '2013-05-13', '2024-03-31'],
+  ['00001010', 'Priya Patel', '2000 Bangalore', 'Finance', 'Controller', '2021-01-04', '9999-12-31'],
+  ['00001011', 'Oliver Brown', '5000 New York', 'Legal', 'Corporate Counsel', '2016-08-22', '9999-12-31'],
+  ['00001012', 'Sofia Rossi', '3000 Madrid', 'Customer Service', 'Service Agent', '2022-10-03', '9999-12-31'],
+  ['00001013', 'Ahmed Hassan', '4000 Singapore', 'IT', 'SAP FI Consultant', '2019-12-02', '9999-12-31'],
+  ['00001014', 'Anna Kowalski', '1000 Hamburg', 'Human Resources', 'Payroll Specialist', '2011-03-01', '9999-12-31'],
+  ['00001015', 'Carlos Silva', '3000 Madrid', 'Logistics', 'Transport Planner', '2018-02-19', '2023-12-31'],
+  ['00001016', 'Fatima Zahra', '5000 New York', 'Finance', 'Treasury Analyst', '2023-04-17', '9999-12-31'],
+  ['00001017', 'David Wilson', '6000 Tokyo', 'Sales', 'Key Account Manager', '2015-10-05', '9999-12-31'],
+  ['00001018', 'Meera Nair', '2000 Bangalore', 'Quality', 'Quality Inspector', '2020-09-14', '9999-12-31'],
+  ['00001019', 'Thomas Martin', '1000 Hamburg', 'Executive Board', 'Chief Financial Officer', '2010-01-01', '9999-12-31'],
+  ['00001020', 'Grace Lee', '4000 Singapore', 'Marketing', 'Digital Marketing Lead', '2021-07-26', '9999-12-31'],
+];

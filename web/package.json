@@ -1,0 +1,14 @@
+{
+  "name": "employee-search",
+  "version": "1.0.0",
+  "description": "Local website to search the employee database by employee number",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
