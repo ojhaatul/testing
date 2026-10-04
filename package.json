@@ -1,0 +1,17 @@
+{
+  "name": "abap-employee-list",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "lint": "abaplint",
+    "unit": "rm -rf output && abap_transpile && node output/index.mjs"
+  },
+  "license": "ISC",
+  "description": "ABAP report ZEMP_LIST: print employee number and name",
+  "devDependencies": {
+    "@abaplint/cli": "^2.120.67",
+    "@abaplint/runtime": "^2.13.98",
+    "@abaplint/transpiler-cli": "^2.13.98"
+  },
+  "private": "true"
+}
