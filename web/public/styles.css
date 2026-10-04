@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f3f5f8; color: #1d2733; }
+main { max-width: 640px; margin: 48px auto; padding: 0 16px; }
+header h1 { margin: 0; font-size: 28px; }
+.subtitle { margin: 4px 0 24px; color: #5b6b7c; }
+form { background: #fff; border: 1px solid #dde3ea; border-radius: 10px; padding: 20px; position: relative; }
+label { display: block; font-weight: 600; margin-bottom: 8px; }
+.row { display: flex; gap: 8px; }
+input { flex: 1; padding: 10px 12px; font-size: 16px; border: 1px solid #c4cdd8; border-radius: 6px; }
+input:focus { outline: 2px solid #0a6ed1; border-color: #0a6ed1; }
+button { padding: 10px 20px; font-size: 16px; border: 0; border-radius: 6px; background: #0a6ed1; color: #fff; cursor: pointer; }
+button:hover { background: #0854a0; }
+#suggestions { list-style: none; margin: 4px 0 0; padding: 4px 0; border: 1px solid #dde3ea; border-radius: 6px; background: #fff; max-height: 220px; overflow-y: auto; }
+#suggestions li { padding: 8px 12px; cursor: pointer; }
+#suggestions li:hover, #suggestions li[aria-selected="true"] { background: #eaf3fc; }
+#suggestions .num { font-family: ui-monospace, monospace; margin-right: 12px; color: #5b6b7c; }
+#result { margin-top: 20px; }
+.card { background: #fff; border: 1px solid #dde3ea; border-radius: 10px; padding: 20px; }
+.card h2 { margin: 0 0 4px; font-size: 22px; }
+.card .pernr { font-family: ui-monospace, monospace; color: #5b6b7c; }
+.badge { display: inline-block; margin-left: 8px; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; vertical-align: middle; }
+.badge.Active { background: #e3f4e8; color: #1e7a3c; }
+.badge.Inactive { background: #f6e5e5; color: #a12a2a; }
+dl { display: grid; grid-template-columns: 160px 1fr; gap: 8px 16px; margin: 16px 0 0; }
+dt { color: #5b6b7c; }
+dd { margin: 0; }
+.message { padding: 14px 16px; border-radius: 8px; background: #fff4e5; border: 1px solid #f3d19c; }
+.message.error { background: #fdecec; border-color: #f0b3b3; }
